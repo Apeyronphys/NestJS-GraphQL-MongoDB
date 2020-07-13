@@ -15,5 +15,8 @@ export class Student{
     lastName: string;
 
     @Column()
-    lessons: string[]; 
+    lessons: string[];
+    
+    @Column()
+    friends: string[];
 }
